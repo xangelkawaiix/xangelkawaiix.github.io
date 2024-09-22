@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XAngelKawaiiX's GitHub Projects</title>
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.2.2/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.2.2/ionicons/ionicons.js"></script>
+    <style>
+        :root {
+            --rosewater: #f2d5cf;
+            --flamingo: #eebebe;
+            --pink: #f4b8e4;
+            --mauve: #ca9ee6;
+            --red: #e78284;
+            --maroon: #ea999c;
+            --peach: #ef9f76;
+            --yellow: #e5c890;
+            --green: #a6d189;
+            --teal: #81c8be;
+            --sky: #99d1db;
+            --sapphire: #85c1dc;
+            --blue: #8caaee;
+            --lavender: #babbf1;
+            --text: #c6d0f5;
+            --subtext1: #b5bfe2;
+            --subtext0: #a5adce;
+            --overlay2: #949cbb;
+            --overlay1: #838ba7;
+            --overlay0: #737994;
+            --surface2: #626880;
+            --surface1: #51576d;
+            --surface0: #414559;
+            --base: #303446;
+            --mantle: #292c3c;
+            --crust: #232634;
+        }
+
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            background-color: var(--base);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            color: var(--blue);
+        }
+
+        .project-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .project-item {
+            padding: 15px 0;
+            margin-bottom: 1rem;
+            transition: background-color 0.3s ease, margin 0.3s ease;
+        }
+
+        .project-item:hover {
+            background-color: var(--surface0);
+            margin: 10px 0;
+        }
+
+        .project-name {
+            font-size: 1.5em;
+            color: var(--blue);
+            margin-bottom: 0.5rem;
+        }
+
+        .project-description {
+            margin-bottom: 1rem;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 10px;
+        }
+
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background-color: var(--blue);
+            color: var(--crust);
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-link:hover {
+            background-color: var(--sky);
+        }
+
+        .project-link ion-icon {
+            font-size: 1.2em;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: var(--surface1);
+            margin: 2rem 0;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .project-item {
+            animation: fadeIn 0.5s ease-out forwards;
+            opacity: 0;
+        }
+
+        .project-item:nth-child(1) { animation-delay: 0.1s; }
+        .project-item:nth-child(2) { animation-delay: 0.2s; }
+        .project-item:nth-child(3) { animation-delay: 0.3s; }
+        .project-item:nth-child(4) { animation-delay: 0.4s; }
+    </style>
+</head>
+<body>
+    <div class="intro">
+        <h1>Welcome to XAngelKawaiiX's GitHub Projects 🎉</h1>
+        <p>Hey there! 👋 Here you'll find a collection of my latest work and experiments. Feel free to explore and have fun! 😄</p>
+    </div>
+    <ul class="project-list">
+        <li class="project-item">
+            <div class="project-name">Hyprland Dotfiles</div>
+            <p class="project-description">My dotfiles for the Hyprland window manager. These configurations are tailored to provide a smooth and efficient desktop experience. 🖥️</p>
+            <div class="project-links">
+                <a href="https://github.com/xangelkawaiix/hyprland-dotfiles" class="project-link"><ion-icon name="logo-github"></ion-icon> View on GitHub</a>
+            </div>
+        </li>
+        <hr>
+        <li class="project-item">
+            <div class="project-name">Tilde</div>
+            <p class="project-description">A startpage designed to make internet searches easier and more intuitive. It's like your personal launchpad for the web! 🚀</p>
+            <div class="project-links">
+                <a href="https://github.com/xangelkawaiix/tilde" class="project-link"><ion-icon name="logo-github"></ion-icon> View on GitHub</a>
+                <a href="https://tilde.nishimiya.my.id" class="project-link"><ion-icon name="globe-outline"></ion-icon> Visit Website</a>
+            </div>
+        </li>
+        <hr>
+        <li class="project-item">
+            <div class="project-name">Shinosawa Hiro</div>
+            <p class="project-description">A website dedicated to Shinosawa Hiro from the idolm@ster series. It's a fan-made tribute to one of my favorite characters! 🌟</p>
+            <div class="project-links">
+                <a href="https://github.com/xangelkawaiix/hiro-shinosawa" class="project-link"><ion-icon name="logo-github"></ion-icon> View on GitHub</a>
+                <a href="http://xangelkawaiix.github.io/hiro-shinosawa/" class="project-link"><ion-icon name="globe-outline"></ion-icon> Visit Website</a>
+            </div>
+        </li>
+        <hr>
+        <li class="project-item">
+            <div class="project-name">BSPWM Dotfiles</div>
+            <p class="project-description">My BSPWM dotfiles. These configurations are now archived, but they were once the backbone of my tiling window manager setup. 📦</p>
+            <div class="project-links">
+                <a href="https://github.com/xangelkawaiix/dotfiles" class="project-link"><ion-icon name="logo-github"></ion-icon> View on GitHub</a>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
